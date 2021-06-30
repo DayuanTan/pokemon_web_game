@@ -23,7 +23,7 @@ Click the "phpMyAdmin" button on the top right of XAMPP start page, then you go 
 
 ![](4.png)
 
-Run those SQL following the steps in the file "setup.sql". 
+Run those SQL following the steps in the file "source/setup.sql". 
 
 Firstly, create the database called "pokemon" and then use it. 
 ```sql
@@ -31,7 +31,7 @@ CREATE DATABASE pokemon;
 use pokemon;
 ```
 
-Secondly, grant privledges and modify the account info in "php/database.php" file.
+Secondly, grant privledges and modify the account info in "source/php/database.php" file.
 
 ![](5.png)
 

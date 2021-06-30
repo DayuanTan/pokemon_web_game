@@ -84,6 +84,15 @@ The "Users stats" button brings users to their profile page which shows the summ
   - Pokemon with higher speed stat attacks first
   - Damage calculated based on type advantage and pokemon’s attack, defense, and level
 
+## Directory explanation
+- All PHP files:
+  - holds all API files.
+- source/php/characters:
+  - holds all files that relate to the characters table in the database (this is where all pokemon and default values are stored)
+- source/php/user:
+  - holds all files that relate to the user table in the database (this is where user's owned pokemon values are stored)
+- source/Images:
+  - leave images where they are, the paths are stored in the database.
 
 
 # [How to run it? Check out steps here.](doc/steps2run.md)
